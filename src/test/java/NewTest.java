@@ -3,8 +3,9 @@ import org.junit.jupiter.api.Test;
 
 public class NewTest {
     @Test
+    int i = 3;
     void newTest(){
-        Assertions.assertTrue(3>2);
+        Assertions.assertTrue(i>2);
     }
 
 }
